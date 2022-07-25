@@ -17,12 +17,14 @@ An example function that would be called by the main program.  The function send
 
 To request data from the web scraper microservice, a function (in this case getrates()) opens up the pipe.txt file and writes "Get Rates" in it.  The microservice will be "listening" for that phrase to be written in the pipe and once it sees it, it will start and retrieve data on mortgage interest rates for various products from bankrate.com
 
+```python
 def get_rates():
     """Function sends request and receives data from microservice."""
     # Send Request
     print("Sending Request")
     with open("pipe.txt", "w") as file:
         file.write("Get Rates")
+```
 
 ##### Receiving Data
 
