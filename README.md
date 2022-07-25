@@ -15,7 +15,18 @@ An example function that would be called by the main program.  The function send
 
 ##### Requesting Data
 
+To request data from the web scraper microservice, a function (in this case getrates()) opens up the pipe.txt file and writes "Get Rates" in it.  The microservice will be "listening" for that phrase to be written in the pipe and once it sees it, it will start and retrieve data on mortgage interest rates for various products from bankrate.com
+
+def get_rates():
+    """Function sends request and receives data from microservice."""
+    # Send Request
+    print("Sending Request")
+    with open("pipe.txt", "w") as file:
+        file.write("Get Rates")
+
 ##### Receiving Data
+
+Once the microservice sees the call from the communication pipe, it parses data from bankrate.com using Beautiful Soup.  The data is then selectively grabbed depending on what information is needed and how it is formatted in html and is placed in a dictionary.  The dictionary is exported as a json file and the microservice returns the filename of the json file to the pipe text file.  The main program or function that originally called the microservice can then open the json file and import the information as a dictionary.
 
 **mortgageratesscrapermain.py**
 
