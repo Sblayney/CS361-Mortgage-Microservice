@@ -1,0 +1,38 @@
+{
+    "Purchase": {
+        "30-Year Fixed": {
+            "Interest Rate": "5.650%",
+            "APR": "5.670%"
+        },
+        "20-Year Fixed": {
+            "Interest Rate": "5.510%",
+            "APR": "5.530%"
+        },
+        "15-Year Fixed": {
+            "Interest Rate": "4.870%",
+            "APR": "4.900%"
+        },
+        "10-Year Fixed": {
+            "Interest Rate": "4.760%",
+            "APR": "4.800%"
+        }
+    },
+    "Refinance": {
+        "30-Year Fixed": {
+            "Interest Rate": "5.590%",
+            "APR": "5.600%"
+        },
+        "20-Year Fixed": {
+            "Interest Rate": "5.470%",
+            "APR": "5.490%"
+        },
+        "15-Year Fixed": {
+            "Interest Rate": "4.850%",
+            "APR": "4.870%"
+        },
+        "10-Year Fixed": {
+            "Interest Rate": "4.740%",
+            "APR": "4.780%"
+        }
+    }
+}
