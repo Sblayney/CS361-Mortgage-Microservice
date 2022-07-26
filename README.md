@@ -48,7 +48,7 @@ Contains the installation requirements to make the microservice work in python.
 
 ## UML Sequence Diagram
 
-
+![UML](https://user-images.githubusercontent.com/86209705/180905419-235890b8-3aba-45ed-91f1-b81a9b2c0d0b.PNG)
 
 ## Video Demonstration
 
