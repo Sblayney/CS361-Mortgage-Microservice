@@ -52,3 +52,4 @@ Contains the installation requirements to make the microservice work in python.
 
 ## Video Demonstration
 
+https://media.oregonstate.edu/media/t/1_wiyvdvti
